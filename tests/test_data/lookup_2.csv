@@ -1,0 +1,16 @@
+dstport,protocol,tag
+25,tcp,sv_P1
+443,tcp,sv_P2
+23,tcp,sv_P3
+110,tcp,email
+993,tcp,email
+143,tcp,email
+1024,tcp,web
+80,tcp,http
+8080,udp,http-alt
+0,icmp,icmp-tag
+65535,tcp,max-port-tag
+49153,tcp,common-tcp
+56000,tcp,rare-tcp
+1,tcp,low-port
+65534,tcp,high-port
