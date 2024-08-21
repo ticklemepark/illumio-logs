@@ -20,7 +20,7 @@ This repository contains a Python script designed to parse flow log data and map
 ## Assumptions
 
 - **Default Ordering of Logs**: 
-  - The flow log entries are assumed to follow a default structure where the fields are ordered consistently.
+  - The flow log entries are assumed to follow a default structure where the fields are ordered consistently (dstport and protocol should be the 7th and 8th field respectively).
   
 - **Version 2 Logs**: 
   - The script is designed to work specifically with flow log data in version 2 format. The format and field positions may differ in other versions.
