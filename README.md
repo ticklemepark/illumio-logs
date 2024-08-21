@@ -15,7 +15,7 @@ This repository contains a Python script designed to parse flow log data and map
 
 3. **Output**:
    - A CSV file listing each tag and its corresponding count.
-   - A CSV file listing each port/protocol combination and its corresponding count.
+   - A CSV file listing each port/protocol combination that appears in the lookup and its corresponding count.
 
 ## Assumptions
 
