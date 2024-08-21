@@ -23,15 +23,14 @@ def process_logs(logs, lookup):
                 tag_count[lookup[log]] = 1
             else:
                 tag_count[lookup[log]] += 1
+            if log not in port_protocol_count:
+                port_protocol_count[log] = 1
+            else:
+                port_protocol_count[log] += 1
         else:
             if "Untagged" not in tag_count:
                 tag_count["Untagged"] = 1
             else:
                 tag_count["Untagged"] += 1
-
-        if log not in port_protocol_count:
-            port_protocol_count[log] = 1
-        else:
-            port_protocol_count[log] += 1
 
     return tag_count, port_protocol_count
